@@ -1,16 +1,11 @@
-# eye_tracking_safety
+# About The application
 
-A new Flutter project.
+This project aims to provide an affordable safety
+solution by implementing a free application, “Driver Safety Assistant.” The application
+is designed to enhance road safety by mitigating drowsiness and distraction risks by
+utilizing a cutting-edge eye-tracking model via Google ML Kit. The application
+features a real-time camera preview with eye and head position tracking to detect
+signs of fatigue (e.g., prolonged eye closures) and phone usage, issuing auditory
+alerts to refocus drivers.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
