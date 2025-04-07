@@ -1,0 +1,4 @@
+#Thu Mar 20 16:48:25 HKT 2025
+base.0=/Users/suzuka/fyp/con/build/app/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

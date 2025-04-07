@@ -1,0 +1,270 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.eye_tracking_safety"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/debug/AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:4:5-64
+16-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:4:22-62
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:5:5-59
+18-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:5:19-57
+19    <uses-feature android:name="android.hardware.camera.autofocus" />
+19-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:6:5-69
+19-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:6:19-67
+20    <!--
+21 Required to query activities that can process text, see:
+22         https://developer.android.com/training/package-visibility and
+23         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+24
+25         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+26    -->
+27    <queries>
+27-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:45:5-50:15
+28        <intent>
+28-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:46:9-49:18
+29            <action android:name="android.intent.action.PROCESS_TEXT" />
+29-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:47:13-72
+29-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:47:21-70
+30
+31            <data android:mimeType="text/plain" />
+31-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:48:13-50
+31-->/Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/android/app/src/main/AndroidManifest.xml:48:19-48
+32        </intent>
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+35-->[:camera_android] /Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/build/camera_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-71
+35-->[:camera_android] /Users/suzuka/Documents/GitHub/my-fyp/eye_tracking_safety/build/camera_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-68
+36
+37    <permission
+37-->[androidx.core:core:1.13.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/e24b2666edcdb1945acc054af1d3ec54/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+38        android:name="com.example.eye_tracking_safety.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.13.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/e24b2666edcdb1945acc054af1d3ec54/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.13.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/e24b2666edcdb1945acc054af1d3ec54/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.example.eye_tracking_safety.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+41-->[androidx.core:core:1.13.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/e24b2666edcdb1945acc054af1d3ec54/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.13.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/e24b2666edcdb1945acc054af1d3ec54/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+42    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+43    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+43-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/suzuka/.gradle/caches/8.10.2/transforms/5113413d36b2389769da33d78f3e7b79/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+43-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/suzuka/.gradle/caches/8.10.2/transforms/5113413d36b2389769da33d78f3e7b79/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+44
+45    <application
+46        android:name="android.app.Application"
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.13.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/e24b2666edcdb1945acc054af1d3ec54/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="true"
+50        android:icon="@mipmap/ic_launcher"
+51        android:label="eye_tracking_safety"
+52        android:largeHeap="true" >
+53        <activity
+54            android:name="com.example.eye_tracking_safety.MainActivity"
+55            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56            android:exported="true"
+57            android:hardwareAccelerated="true"
+58            android:launchMode="singleTop"
+59            android:taskAffinity=""
+60            android:theme="@style/LaunchTheme"
+61            android:windowSoftInputMode="adjustResize" >
+62
+63            <!--
+64                 Specifies an Android theme to apply to this Activity as soon as
+65                 the Android process has started. This theme is visible to the user
+66                 while the Flutter UI initializes. After that, this theme continues
+67                 to determine the Window background behind the Flutter UI.
+68            -->
+69            <meta-data
+70                android:name="io.flutter.embedding.android.NormalTheme"
+71                android:resource="@style/NormalTheme" />
+72
+73            <intent-filter>
+74                <action android:name="android.intent.action.MAIN" />
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+77            </intent-filter>
+78        </activity>
+79        <!--
+80             Don't delete the meta-data below.
+81             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+82        -->
+83        <meta-data
+84            android:name="flutterEmbedding"
+85            android:value="2" />
+86
+87        <service
+87-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/ea3d66970750e3e283350031522b0e0e/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+88            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+88-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/ea3d66970750e3e283350031522b0e0e/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:10:13-91
+89            android:directBootAware="true"
+89-->[com.google.mlkit:common:18.6.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/f3726dc0d5f9010422de054e68694029/transformed/jetified-common-18.6.0/AndroidManifest.xml:17:13-43
+90            android:exported="false" >
+90-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/ea3d66970750e3e283350031522b0e0e/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:11:13-37
+91            <meta-data
+91-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/ea3d66970750e3e283350031522b0e0e/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
+92                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+92-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/ea3d66970750e3e283350031522b0e0e/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/ea3d66970750e3e283350031522b0e0e/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
+94            <meta-data
+94-->[com.google.mlkit:vision-common:17.3.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/5a44a90ceeb3528b3fef1f873094ac79/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+95                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+95-->[com.google.mlkit:vision-common:17.3.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/5a44a90ceeb3528b3fef1f873094ac79/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.mlkit:vision-common:17.3.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/5a44a90ceeb3528b3fef1f873094ac79/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+97            <meta-data
+97-->[com.google.mlkit:common:18.6.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/f3726dc0d5f9010422de054e68694029/transformed/jetified-common-18.6.0/AndroidManifest.xml:20:13-22:85
+98                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+98-->[com.google.mlkit:common:18.6.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/f3726dc0d5f9010422de054e68694029/transformed/jetified-common-18.6.0/AndroidManifest.xml:21:17-120
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.mlkit:common:18.6.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/f3726dc0d5f9010422de054e68694029/transformed/jetified-common-18.6.0/AndroidManifest.xml:22:17-82
+100        </service>
+101
+102        <provider
+102-->[com.google.mlkit:common:18.6.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/f3726dc0d5f9010422de054e68694029/transformed/jetified-common-18.6.0/AndroidManifest.xml:9:9-13:38
+103            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+103-->[com.google.mlkit:common:18.6.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/f3726dc0d5f9010422de054e68694029/transformed/jetified-common-18.6.0/AndroidManifest.xml:10:13-78
+104            android:authorities="com.example.eye_tracking_safety.mlkitinitprovider"
+104-->[com.google.mlkit:common:18.6.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/f3726dc0d5f9010422de054e68694029/transformed/jetified-common-18.6.0/AndroidManifest.xml:11:13-69
+105            android:exported="false"
+105-->[com.google.mlkit:common:18.6.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/f3726dc0d5f9010422de054e68694029/transformed/jetified-common-18.6.0/AndroidManifest.xml:12:13-37
+106            android:initOrder="99" />
+106-->[com.google.mlkit:common:18.6.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/f3726dc0d5f9010422de054e68694029/transformed/jetified-common-18.6.0/AndroidManifest.xml:13:13-35
+107
+108        <activity
+108-->[com.google.android.gms:play-services-base:18.1.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/dcd7068cd37eba1004a9aca3be408185/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+109            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+109-->[com.google.android.gms:play-services-base:18.1.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/dcd7068cd37eba1004a9aca3be408185/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-base:18.1.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/dcd7068cd37eba1004a9aca3be408185/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+111-->[com.google.android.gms:play-services-base:18.1.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/dcd7068cd37eba1004a9aca3be408185/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+112
+113        <meta-data
+113-->[com.google.android.gms:play-services-basement:18.1.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/ebbe2a7453d8e283c4ff452c1e727928/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+114            android:name="com.google.android.gms.version"
+114-->[com.google.android.gms:play-services-basement:18.1.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/ebbe2a7453d8e283c4ff452c1e727928/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+115            android:value="@integer/google_play_services_version" />
+115-->[com.google.android.gms:play-services-basement:18.1.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/ebbe2a7453d8e283c4ff452c1e727928/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+116
+117        <uses-library
+117-->[androidx.window:window:1.2.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/dd32a595315823fe82c7f37be04484f6/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+118            android:name="androidx.window.extensions"
+118-->[androidx.window:window:1.2.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/dd32a595315823fe82c7f37be04484f6/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+119            android:required="false" />
+119-->[androidx.window:window:1.2.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/dd32a595315823fe82c7f37be04484f6/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+120        <uses-library
+120-->[androidx.window:window:1.2.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/dd32a595315823fe82c7f37be04484f6/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+121            android:name="androidx.window.sidecar"
+121-->[androidx.window:window:1.2.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/dd32a595315823fe82c7f37be04484f6/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+122            android:required="false" />
+122-->[androidx.window:window:1.2.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/dd32a595315823fe82c7f37be04484f6/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+123
+124        <provider
+124-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/ac0e1ff5389a6d10f1f91edfcfe54e78/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+125            android:name="androidx.startup.InitializationProvider"
+125-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/ac0e1ff5389a6d10f1f91edfcfe54e78/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+126            android:authorities="com.example.eye_tracking_safety.androidx-startup"
+126-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/ac0e1ff5389a6d10f1f91edfcfe54e78/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+127            android:exported="false" >
+127-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/ac0e1ff5389a6d10f1f91edfcfe54e78/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+128            <meta-data
+128-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/ac0e1ff5389a6d10f1f91edfcfe54e78/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+129                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+129-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/ac0e1ff5389a6d10f1f91edfcfe54e78/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+130                android:value="androidx.startup" />
+130-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/suzuka/.gradle/caches/8.10.2/transforms/ac0e1ff5389a6d10f1f91edfcfe54e78/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+131            <meta-data
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+132                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+133                android:value="androidx.startup" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+134        </provider>
+135
+136        <receiver
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+137            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+138            android:directBootAware="false"
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+139            android:enabled="true"
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+140            android:exported="true"
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+141            android:permission="android.permission.DUMP" >
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+143                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+144            </intent-filter>
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+146                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+147            </intent-filter>
+148            <intent-filter>
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+149                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+150            </intent-filter>
+151            <intent-filter>
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+152                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/suzuka/.gradle/caches/8.10.2/transforms/3c5a7c7c9e5c27ec60d6eced40079e9b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+153            </intent-filter>
+154        </receiver>
+155
+156        <service
+156-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/suzuka/.gradle/caches/8.10.2/transforms/5113413d36b2389769da33d78f3e7b79/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+157            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+157-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/suzuka/.gradle/caches/8.10.2/transforms/5113413d36b2389769da33d78f3e7b79/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+158            android:exported="false" >
+158-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/suzuka/.gradle/caches/8.10.2/transforms/5113413d36b2389769da33d78f3e7b79/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+159            <meta-data
+159-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/suzuka/.gradle/caches/8.10.2/transforms/5113413d36b2389769da33d78f3e7b79/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+160                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+160-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/suzuka/.gradle/caches/8.10.2/transforms/5113413d36b2389769da33d78f3e7b79/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+161                android:value="cct" />
+161-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/suzuka/.gradle/caches/8.10.2/transforms/5113413d36b2389769da33d78f3e7b79/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+162        </service>
+163        <service
+163-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/suzuka/.gradle/caches/8.10.2/transforms/de0efa0d205fe7defe331b25de913c19/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+164            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+164-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/suzuka/.gradle/caches/8.10.2/transforms/de0efa0d205fe7defe331b25de913c19/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+165            android:exported="false"
+165-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/suzuka/.gradle/caches/8.10.2/transforms/de0efa0d205fe7defe331b25de913c19/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+166            android:permission="android.permission.BIND_JOB_SERVICE" >
+166-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/suzuka/.gradle/caches/8.10.2/transforms/de0efa0d205fe7defe331b25de913c19/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+167        </service>
+168
+169        <receiver
+169-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/suzuka/.gradle/caches/8.10.2/transforms/de0efa0d205fe7defe331b25de913c19/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+170            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+170-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/suzuka/.gradle/caches/8.10.2/transforms/de0efa0d205fe7defe331b25de913c19/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+171            android:exported="false" />
+171-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/suzuka/.gradle/caches/8.10.2/transforms/de0efa0d205fe7defe331b25de913c19/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+172    </application>
+173
+174</manifest>

@@ -1,0 +1,4 @@
+com.example.eye_tracking_safety.test.app-androidTest-0 /Users/suzuka/fyp/con/build/app/generated/res/resValues/androidTest/debug
+com.example.eye_tracking_safety.test.app-mergeDebugAndroidTestResources-1 /Users/suzuka/fyp/con/build/app/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.eye_tracking_safety.test.app-mergeDebugAndroidTestResources-2 /Users/suzuka/fyp/con/build/app/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.eye_tracking_safety.test.app-debugAndroidTest-3 /Users/suzuka/fyp/con/build/app/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
